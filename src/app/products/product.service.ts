@@ -36,5 +36,6 @@ export const updateProduct = (id: Product['id'], changes: UpdateProductDto):Prod
 
 export const findProducts = (dto: FindProductDto):Product[] => {
   // code
+
   return products;
 }
